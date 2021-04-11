@@ -6,7 +6,7 @@ import kotlin.String
 public data class StoreSecretRequest(
   public val siteId: Long = 0,
   public val userId: Long = 0,
-  public val linkedinId: Long = 0,
+  public val linkedinId: String = "",
   public val accessToken: String = "",
   public val accessTokenSecret: String = ""
 )
